@@ -3,8 +3,13 @@ package notas;
 import java.util.Scanner;
 
 public class Notas {
-
+/**
+ * @author Victoriano
+ */
 public static void main(String[] args) {
+	/**
+	 * @version Final
+	 */
 Scanner reader = new Scanner(System.in);// Para pedir un dato numérico por teclado
 int numero = 0;
 String calificacion = "";
@@ -18,8 +23,8 @@ reader.close();
 }
 
 /**
- * @param numero
- * @return
+ * @param numero Parametro número del método cali (método obsoleto)
+ * @return Devuelve la variable calificacion (método obsoleto)
  * @deprecated Use {@link notas.califica#califica(int)} instead
  */
 public static String cali(int numero) {
@@ -27,8 +32,8 @@ public static String cali(int numero) {
 }
 
 /**
- * @param num_nota
- * @return
+ * @param num_nota Parametro introducido de la nota
+ * @return Devuelve la variable calificación
  * @deprecated Use {@link califica#califica(int)} instead
  */
 public static String califica(int num_nota) {

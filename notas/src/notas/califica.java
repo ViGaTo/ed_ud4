@@ -1,10 +1,13 @@
 package notas;
 
+/**
+ * @author Victoriano
+ *@version Final
+ */
 public class califica {
-
 	/**
-	 * @param num_nota
-	 * @return
+	 * @param num_nota Se introduce el parametro num_nota el cual es entero.
+	 * @return Devuelve la calificación.
 	 */
 	public static String califica(int num_nota) {
 		String calificacion;
